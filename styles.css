@@ -402,12 +402,16 @@ a.btn-cta {
   border-right: 10px solid rgba(0, 0, 0, 0.2);
 }
 /* 3 */
-.testimonials-section {
-  background-color: #00000000;
+.testimonials-section {  
+  background-image: linear-gradient(#00000081, #000000 ), url('images/RRF4.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
   padding-top: 90px;
   padding-bottom: 90px;
 }
@@ -554,9 +558,12 @@ a.btn-cta {
 .pricing-section {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #00000000;
+  background-image: linear-gradient(#00000081, #000000 ), url('images/RRF4.jpg');
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  background-color: #000000;
 }
 .pricing-section .section-title {
   margin: 0;
