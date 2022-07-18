@@ -725,7 +725,7 @@ a.btn-cta {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: #eca2ff;
+  color: #db4bff;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
@@ -742,10 +742,13 @@ a.btn-cta {
   left: 0;
   border-radius: 3px 0 0 3px;
 }
-
+.gallery-wrapper .prev,
+.gallery-wrapper .next {
+  background-color:#0000008e;
+}
 .gallery-wrapper .prev:hover,
 .gallery-wrapper .next:hover {
-  background-color:#0000008e;
+  background-color:#000000c4;
 }
 
 .gallery-wrapper .numbertext {
