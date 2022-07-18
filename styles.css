@@ -612,6 +612,31 @@ a.btn-cta {
 .testimonials-section .item .quote-source {
   color: rgba(0, 0, 0, 0.6);
 }
+.testimonials-section a{
+  font-size: 18px;
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  border: 2px solid #eca2ff;
+  margin: 15px 50px 15px 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 2px;
+  background-color: #eca2ff;
+  color: #ffffff;
+  -webkit-box-reflect: below 0px linear-gardient(transparent, #0002);
+  transition: 0.5s;
+  transition-delay: 0s;
+}
+.testimonials-section a:hover{
+  color: #000;
+  box-shadow: 0 0 10px #eca2ff,
+              0 0 20px #eca2ff,
+              0 0 40px #eca2ff,
+              0 0 80px #eca2ff,
+              0 0 160px #eca2ff;
+}
 /* 4 */
 .working-section {
   padding-top: 90px;
@@ -665,6 +690,101 @@ a.btn-cta {
   text-align: left;
   margin-left: 20px;
 }
+
+
+.gallery-wrapper * {
+  box-sizing: border-box;
+}
+
+.gallery-wrapper {
+  max-width: 720px;
+}
+
+.gallery-wrapper img {
+  vertical-align: middle;
+}
+
+.gallery-wrapper .gallery-container {
+  position: relative;
+}
+
+.gallery-wrapper .mySlides {
+  display: none;
+}
+
+.gallery-wrapper .cursor {
+  cursor: pointer;
+}
+
+.gallery-wrapper .prev,
+.gallery-wrapper .next {
+  text-decoration: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #eca2ff;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.gallery-wrapper .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.gallery-wrapper .prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.gallery-wrapper .prev:hover,
+.gallery-wrapper .next:hover {
+  background-color:#0000008e;
+}
+
+.gallery-wrapper .numbertext {
+  background-color:#0000008e;
+  border-radius: 0 0 10px 0;
+  color: #eca2ff;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.gallery-wrapper .caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.gallery-wrapper .gallery-row:after {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.gallery-wrapper .column {
+  width: 16.66666%;
+  float: left;
+}
+
+.gallery-wrapper .demo {
+  opacity: 0.6;
+}
+
+.gallery-wrapper .active,
+.gallery-wrapper .demo:hover {
+  opacity: 1;
+}
+
 /* 5 */
 .pricing-main{
   display: flex;
