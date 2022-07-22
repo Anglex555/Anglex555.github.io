@@ -463,7 +463,7 @@ a.btn-cta {
   padding: 30px;
 }
 .about-section .items-wrapper .item-title {
-  color: #bf9cda;
+  color: #b072df;
   font-size: 18px;
   font-weight: bold;
   margin: 0;
@@ -786,12 +786,14 @@ a.btn-cta {
 }
 .working-nav > li {
   position: relative;
+  font-size: 16px;
 }
 .working-nav > li .fa {
   margin-right: 5px;
 }
 .working-nav > li.active > a {
-  color: #9277a6;
+  color: #b072df;
+  font-size: 16px;
   background: none;
   padding: 8px 0;
 }
@@ -1194,6 +1196,15 @@ table {
   .vid-about {
     width: 80%;
     height: auto;
+  }
+  .working-section .panel_w {
+    padding-right: 0px;
+  }
+  .working-nav > li.active > a {
+    color: #b072df;
+    font-size: 16px;
+    background: none;
+    padding: 8px 0;
   }
   .testimonials-section .item .profile-image {
     width: 60px;
